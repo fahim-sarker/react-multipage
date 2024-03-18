@@ -1,0 +1,43 @@
+#banner{
+    background: #1C1E53;
+}
+.ban-text{
+    margin-top: 200px;
+}
+.ban-text h2{
+    color:  #FFF;
+    font-family:"Poppins", sans-serif ;
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.ban-text p{
+    color:  #FFF;
+    font-family:"Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+    padding-bottom: 30px;
+}
+.ban-btn{
+    color: #FFF;
+    font-family:"Poppins", sans-serif ;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+    padding: 16px 56px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 41px;
+    border: 2px solid #FCD980;
+    transition: 0.5s;
+}
+.ban-btn:hover{
+    background-color: #FCD980;
+}
+.a .ban-btn{
+    margin-bottom: 128px;
+}
+.ban-img{
+    padding: 241px 0 157px 0;
+}

@@ -1,0 +1,115 @@
+#pp{
+    padding-top: 144px;
+    padding-bottom: 500px;
+}
+.pp-text h3{
+    color:  #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: center;
+}
+.pp-text p{
+    color:  #000;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+    padding-bottom: 50px;
+}
+.pp-p{
+    display: flex;
+}
+.p-1 h3{
+    color:  #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 48px;
+    padding-top: 64px;
+}
+.p-1 h3:hover{
+    color: red;
+}
+.p-2 h6{
+    color:  #2405F2;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 74px;
+}
+.pp-card{
+    border-radius: 12px;
+    background:  #F4F6FC;
+    padding-bottom: 60px;
+    position: relative;
+}
+.pp-card::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    transition: 0.6s;
+}
+.pp-card:hover::after{
+    width: 100%;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+}
+.pp-card h4{
+    color:  #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px; 
+    padding-left: 48px;
+}
+.pp-card p{
+    color:  #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px; 
+    padding-left: 48px;
+    padding-bottom: 50px;
+}
+.pp-card ul li{
+    color:  000fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    padding: 10px 0;
+}
+.pp-card ul{
+    padding-bottom: 30px;
+}
+.pp-card ul li .icon{
+    color: #000;
+    margin-right: 10px;
+    margin-left: 12px;
+}
+.pp-card a{
+    margin: 50px 0 0 50px !important;
+    display: inline-block;
+    color:  #fff;
+    font-family:"Poppins", sans-serif ;
+    font-size: 18px;
+    font-weight: 600;
+    background:  #282938;
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+.pp-btn a{
+    color:  #F4F6FC;
+    font-family:"Poppins", sans-serif ;
+    font-size: 18px;
+    font-weight: 600;
+    background:  #FCD980;
+    padding: 15px 50px;
+    border-radius: 30px;
+}

@@ -1,0 +1,131 @@
+#contact{
+    padding: 128px 0;
+}
+.contact-text h3{
+    color:  #282938;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+.contact-text p{
+    color:  #282938;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    padding-bottom: 50px;
+}
+form{
+    border-radius: 12px;
+    background: var(--Grey, #F4F6FC);
+}
+.contact-form-1{
+    display: flex;
+    padding: 55px 77px 24px 76px;
+}   
+.contact-form-2{
+    display: flex;
+    padding: 0px 77px 0px 76px;
+}    
+.contact-frm{
+    padding: 0px 77px 80px 76px;
+}
+.form-1 h6{
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.form-1 input{
+    height: 50px;
+    width: 350px;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background-color: #F4F6FC;
+    padding: 0 15px !important;
+    text-transform: capitalize;
+} 
+.form-2 h6{
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.form-2 input{
+    height: 50px;
+    width: 350px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background-color: #F4F6FC;
+    padding: 0 15px !important;
+}
+.form-3 h6{
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.form-3 input{
+    height: 50px;
+    width: 350px;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background-color: #F4F6FC;
+    padding: 0 15px !important;
+}
+.form-4 h6{
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.form-4 input{
+    height: 50px;
+    width: 350px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background-color: #F4F6FC;
+    padding: 0 15px !important;
+}
+.contact-frm h6{
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+.contact-frm input{
+    width: 720px;
+    height: 100px;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background-color: #F4F6FC;
+    padding: 0 15px !important;
+}
+.contact-btn{
+    padding: 50px 10px 0 0;
+}
+.contact-btn a{
+    color:  #F4F6FC;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 51px;
+    border-radius: 41px;
+    background:  #282938;
+}

@@ -1,0 +1,54 @@
+#df{
+    padding: 128px 0 48px 0;
+}
+.fd-text h5{
+    color:  #282938;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.fd-text h2{
+    color:  #282938;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;;
+    font-weight: 600;
+    line-height: 64px;
+}
+.fd-text p{
+    color:  #282938;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+}
+.fb-img{
+    background: linear-gradient(131deg, #F4EDE1 16.74%, #98B1C6 103.17%);
+    padding:60px 60px;
+    margin-top: 50px;
+}
+.left{
+    padding-top: 48px;
+    position: relative;
+}
+.left::after{
+    position: absolute;
+    content: '';
+    top: 130px;
+    left: 0;
+    height: 2px;
+    width: 355px;
+    background: #282938;
+}
+.left h6{
+    color:  #282938;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.left h5{
+    color:  #282938;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
